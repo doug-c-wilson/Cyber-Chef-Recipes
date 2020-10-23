@@ -1,0 +1,4 @@
+URL_Decode()
+Find_/_Replace({'option':'Simple string','string':'https://nam01.safelinks.protection.outlook.com/?url='},'',true,false,true,false)
+Find_/_Replace({'option':'Simple string','string':'&data'},'<remove>',true,false,true,false)
+Extract_URLs(false)
