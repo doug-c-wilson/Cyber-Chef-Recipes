@@ -1,0 +1,1 @@
+where(data.processName=/(psexec64|psexec)\.exe/i)
