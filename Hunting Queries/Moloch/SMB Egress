@@ -1,0 +1,1 @@
+protocols == smb && ip.dst != x.x.x.x/x
