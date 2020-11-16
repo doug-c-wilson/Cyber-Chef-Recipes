@@ -1,0 +1,1 @@
+where(cmdLine="vssadmin.exe Delete Shadows" OR cmdLine="vssadmin create shadow /for=C:" OR cmdLine="copy \\\\?\\GLOBALROOT\\Device\\*\\windows\\ntds\\ntds.dit" OR cmdLine="copy \\\\?\\GLOBALROOT\\Device\\*\\config\\SAM" OR cmdLine="vssadmin delete shadows /for=C:" OR cmdLine="reg SAVE HKLM\\SYSTEM ")
